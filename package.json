@@ -1,0 +1,24 @@
+{
+  "name": "candy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristinaSolana/candy.git"
+  },
+  "keywords": [],
+  "author": "Angel Ramirez <angel@cuemby.com> (http://www.cuemby.com/ar4mirez)",
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/CristinaSolana/candy/issues"
+  },
+  "homepage": "https://github.com/CristinaSolana/candy#readme",
+  "dependencies": {
+    "serve": "3.3.1"
+  }
+}
