@@ -1,24 +1,28 @@
 {
   "name": "candy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js"
+  "author": "Angel Ramirez <angel@cuemby.com> (http://www.cuemby.com/ar4mirez)",
+  "bugs": {
+    "url": "https://github.com/CristinaSolana/candy/issues"
   },
+  "dependencies": {
+    "express": "4.14.1",
+    "serve": "3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  },
+  "homepage": "https://github.com/CristinaSolana/candy#readme",
+  "keywords": [],
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CristinaSolana/candy.git"
   },
-  "keywords": [],
-  "author": "Angel Ramirez <angel@cuemby.com> (http://www.cuemby.com/ar4mirez)",
-  "license": "SEE LICENSE IN <LICENSE.md>",
-  "bugs": {
-    "url": "https://github.com/CristinaSolana/candy/issues"
-  },
-  "homepage": "https://github.com/CristinaSolana/candy#readme",
-  "dependencies": {
-    "express": "4.14.1",
-    "serve": "3.3.1"
+  "scripts": {
+    "dev": "gulp",
+    "start": "node server.js"
   }
 }
